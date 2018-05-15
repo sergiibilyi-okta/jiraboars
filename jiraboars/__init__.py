@@ -3,7 +3,6 @@ import json
 import re
 import requests
 
-
 URL = "https://mangarock.com/manga/mrs-serie-225627/"
 def main():
     response = requests.get(URL)
